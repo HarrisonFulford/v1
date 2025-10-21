@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Harrison Fulford",
   description: "Machine Learning Engineer, currently interested in GPU optimization",
   generator: "v0.app",
+  icons: {
+    icon: "/portfolio-favicon.jpeg",
+  },
 }
 
 export default function RootLayout({
