@@ -18,12 +18,10 @@ export function Header() {
           </div>
           <div className="mb-4 max-w-lg space-y-1">
             <p className="text-sm leading-relaxed text-foreground md:text-base">
-              machine learning engineer, currently interested in gpu optimization. computer science student @ university
-              of waterloo.
+              machine learning engineer, currently interested in world models.
             </p>
             <p className="text-sm leading-relaxed text-foreground md:text-base">
-              this fall, i'm working as a machine learning engineer at shopify. also building (and breaking) cacheout, a
-              distributed compute solution.
+              computer science student @ university of waterloo.
             </p>
           </div>
         </div>

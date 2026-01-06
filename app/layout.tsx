@@ -5,11 +5,8 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Harrison Fulford",
-  description: "Machine Learning Engineer, currently interested in GPU optimization",
+  description: "Machine Learning Engineer, currently interested in world models",
   generator: "v0.app",
-  icons: {
-    icon: "/portfolio-favicon.jpeg",
-  },
 }
 
 export default function RootLayout({
