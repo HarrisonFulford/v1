@@ -6,12 +6,16 @@ import Image from "next/image"
 const allProjects = [
   // Row 1: shopify, shipit, gordon
   {
-    title: "machine learning engineer",
+    title: "shopify",
+    company: "shopify",
+    role: "machine learning engineer",
     category: "internship",
     year: "2025",
     description: "working on ad recomendation and campaign estimates model improvements",
     image: "/work-1.png",
+    hoverImage: "/shopify-2.png",
     link: "https://www.shopify.com/ca",
+    isWork: true,
   },
   {
     title: "/shipit",
@@ -19,7 +23,9 @@ const allProjects = [
     year: "2025",
     description: "built tab to complete and suggestion agents as a figma plugin",
     image: "/shipit.jpeg",
+    hoverImage: "/shipit-2.png",
     link: "https://www.youtube.com/watch?v=g6rRfPKCgV4",
+    isWork: false,
   },
   {
     title: "gordon",
@@ -28,42 +34,58 @@ const allProjects = [
     description:
       "created an ai cooking assistant that sees what you see and gives advice in real time, he's also british",
     image: "/gordon.png",
+    hoverImage: "/gordon-2.png",
     link: "https://github.com/HarrisonFulford/Gordon",
+    isWork: false,
   },
   // Row 2: spur, cacheout, uwaft
   {
-    title: "software engineer",
+    title: "spur innovation centre",
+    company: "spur innovation centre",
+    role: "software engineer",
     category: "internship",
     year: "2025",
     description: "built an internal platform for spot gpu usage from multiple company data centers",
     image: "/work-2.png",
+    hoverImage: "/spur-2.png",
     link: "https://innovation.spuric.com/",
+    isWork: true,
   },
   {
     title: "cacheout",
-    category: "pitch", // changed from "private" to "pitch"
+    category: "pitch",
     year: "2025",
     description: "designing a platform to rent compute power from community providers",
-    image: "/cacheout-portfolio.png",
+    image: "/cacheout-primary.png",
+    hoverImage: "/cacheout-2.png",
     link: "https://www.cacheout.ca/",
+    isWork: false,
   },
   {
-    title: "firmware engineer",
+    title: "uwaft",
+    company: "uwaft",
+    role: "firmware engineer",
     category: "design team",
     year: "2024",
     description:
       "configured radio's to help a converted electric car talk to traffic lights, also tested level 2 self driving models",
     image: "/work-4.png",
+    hoverImage: "/uwaft-2.png",
     link: "https://www.uwaft.ca/",
+    isWork: true,
   },
   // Row 3: the local reach, noscroll (centered)
   {
-    title: "machine learning engineer",
+    title: "the local reach",
+    company: "the local reach",
+    role: "machine learning engineer",
     category: "internship",
     year: "2024",
     description: "helped steal ad space with real time classification and overlay of ads during sports broadcasts",
     image: "/work-3.png",
+    hoverImage: "/localreach-2.png",
     link: "https://www.thelocalreach.ca/",
+    isWork: true,
   },
   {
     title: "noscroll",
@@ -71,7 +93,9 @@ const allProjects = [
     year: "2025",
     description: "developed a chrome extension that proactively keeps you off distracting sites",
     image: "/noscroll.jpeg",
+    hoverImage: "/noscroll-2.png",
     link: "https://www.youtube.com/watch?v=-LHBkAw3PC8",
+    isWork: false,
   },
 ]
 
@@ -84,8 +108,8 @@ export function WorkSection() {
             src="/work-and-projects.jpeg"
             alt="work & projects"
             width={400}
-            height={80}
-            className="h-auto w-auto max-w-xs"
+            height={60}
+            className="h-[60px] w-auto"
           />
         </div>
         <p className="text-sm text-muted-foreground">professional experience, research, and applications</p>
