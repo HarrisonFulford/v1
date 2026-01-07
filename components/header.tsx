@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex-1">
           <div className="mb-4">
             <Image
-              src="/harrison-fulford.jpg"
+              src="/harrison-fulford-nobg.png"
               alt="Harrison Fulford"
               width={600}
               height={120}

@@ -14,7 +14,7 @@ const allProjects = [
     description: "working on ad recomendation and campaign estimates model improvements",
     image: "/work-1.png",
     hoverImage: "/shopify-2.png",
-    link: "https://www.shopify.com/ca",
+    link: "https://shopify.engineering/machine-learning-at-shopify",
     isWork: true,
   },
   {
@@ -105,7 +105,7 @@ export function WorkSection() {
       <div className="mb-8">
         <div className="mb-2">
           <Image
-            src="/work-and-projects.jpeg"
+            src="/work-and-projects-nobg.png"
             alt="work & projects"
             width={400}
             height={60}
