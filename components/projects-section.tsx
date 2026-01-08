@@ -31,7 +31,7 @@ const projects = [
   {
     title: "noscroll",
     category: "open source",
-    year: "2024",
+    year: "2025",
     description: "developed a chrome extension that proactively keeps you off distracting sites",
     image: "/noscroll.jpeg",
     link: "https://www.youtube.com/watch?v=-LHBkAw3PC8",
