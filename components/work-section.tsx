@@ -55,7 +55,7 @@ const allProjects = [
     title: "cacheout",
     category: "pitch",
     year: "2025",
-    description: "designing a platform to rent compute power from community providers",
+    description: "designed a platform to rent compute power from community providers",
     image: "/cacheout-primary.png",
     hoverImage: "/cacheout-2.png",
     link: "https://www.cacheout.ca/",

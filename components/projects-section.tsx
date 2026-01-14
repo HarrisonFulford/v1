@@ -6,7 +6,7 @@ const projects = [
     title: "cacheout",
     category: "private",
     year: "2025",
-    description: "designing a platform to rent compute power from community providers",
+    description: "designed a platform to rent compute power from community providers",
     image: "/cacheout-portfolio.png",
     spanFull: true,
     link: "https://www.cacheout.ca/",
