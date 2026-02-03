@@ -88,7 +88,6 @@ const allProjects = [
     link: "https://www.thelocalreach.ca/",
     isWork: true,
   },
-  // Row 3: noscroll (centered)
   {
     title: "noscroll",
     category: "open source",
@@ -117,15 +116,8 @@ export function WorkSection() {
         <p className="text-sm text-muted-foreground">professional experience, research, and applications</p>
       </div>
       <div className="grid gap-6 md:grid-cols-3">
-        {allProjects.slice(0, 6).map((project, index) => (
+        {allProjects.map((project, index) => (
           <ProjectCard key={index} {...project} />
-        ))}
-      </div>
-      <div className="mt-6 flex justify-center gap-6">
-        {allProjects.slice(6).map((project, index) => (
-          <div key={index} className="w-full md:w-[calc(33.333%-0.75rem)]">
-            <ProjectCard {...project} />
-          </div>
         ))}
       </div>
     </section>
