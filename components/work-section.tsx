@@ -3,6 +3,20 @@
 import { ProjectCard } from "@/components/project-card"
 import Image from "next/image"
 
+// Spur data kept for reference but not displayed
+const spurProject = {
+  title: "spur innovation centre",
+  company: "spur innovation centre",
+  role: "software engineer",
+  category: "internship",
+  year: "2025",
+  description: "built an internal platform for spot gpu usage from multiple company data centers",
+  image: "/work-2.png",
+  hoverImage: "/spur-2.png",
+  link: "https://innovation.spuric.com/",
+  isWork: true,
+}
+
 const allProjects = [
   // Row 1: shopify, shipit, gordon
   {
@@ -38,19 +52,7 @@ const allProjects = [
     link: "https://github.com/HarrisonFulford/Gordon",
     isWork: false,
   },
-  // Row 2: spur, cacheout, uwaft
-  {
-    title: "spur innovation centre",
-    company: "spur innovation centre",
-    role: "software engineer",
-    category: "internship",
-    year: "2025",
-    description: "built an internal platform for spot gpu usage from multiple company data centers",
-    image: "/work-2.png",
-    hoverImage: "/spur-2.png",
-    link: "https://innovation.spuric.com/",
-    isWork: true,
-  },
+  // Row 2: cacheout, uwaft, the local reach
   {
     title: "cacheout",
     category: "pitch",
@@ -69,12 +71,11 @@ const allProjects = [
     year: "2024",
     description:
       "configured radio's to help a converted electric car talk to traffic lights, also tested level 2 self driving models",
-    image: "/work-4.png",
+    image: "/uwaft-primary.png",
     hoverImage: "/uwaft-2.png",
     link: "https://www.uwaft.ca/",
     isWork: true,
   },
-  // Row 3: the local reach, noscroll (centered)
   {
     title: "the local reach",
     company: "the local reach",
@@ -87,6 +88,7 @@ const allProjects = [
     link: "https://www.thelocalreach.ca/",
     isWork: true,
   },
+  // Row 3: noscroll (centered)
   {
     title: "noscroll",
     category: "open source",
