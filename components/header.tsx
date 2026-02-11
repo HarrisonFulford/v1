@@ -18,7 +18,7 @@ export function Header() {
           </div>
           <div className="mb-4 max-w-lg space-y-1">
             <p className="text-sm leading-relaxed text-foreground md:text-base">
-              machine learning engineer, currently interested in world models.
+              machine learning engineer, currently interested in post training.
             </p>
             <p className="text-sm leading-relaxed text-foreground md:text-base">
               computer science student @ university of waterloo.
