@@ -5,7 +5,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Harrison Fulford",
-  description: "Machine Learning Engineer, currently interested in world models",
+  description: "Machine Learning Engineer, currently interested in ai/ml infrastructure",
   generator: "v0.app",
   icons: {
     icon: "/favicon.ico",
